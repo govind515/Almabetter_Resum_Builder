@@ -3,6 +3,7 @@
   padding: 40px;
   margin-right: 0px;
   height: fit-content;
+  background-color: rgb(223, 228, 216);
 }
 
 .MuiButtonBase-root.MuiButton-root.change-profile-photo-btn {
@@ -25,14 +26,13 @@
   margin: 20px 0px;
 }
 @media screen and (max-width: 1010px) {
-  .MuiPaper-root.MuiPaper-elevation.personal-info-paper{
+  .MuiPaper-root.MuiPaper-elevation.personal-info-paper {
     width: 100%;
     padding: 20px;
-
   }
 }
 @media screen and (min-width: 1010px) and (max-width: 1300px) {
-  .MuiPaper-root.MuiPaper-elevation.personal-info-paper{
+  .MuiPaper-root.MuiPaper-elevation.personal-info-paper {
     width: 90%;
     padding: 40px;
   }
@@ -40,6 +40,5 @@
 @media screen and (max-width: 450px) {
   .personal-info-form-fields {
     grid-template-columns: 1fr;
-    
   }
 }

@@ -12,6 +12,7 @@ import { Provider } from "react-redux";
 // Import the Redux store
 import { Store } from "./Store";
 
+
 // Create a root for ReactDOM to render the app
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -25,4 +26,5 @@ root.render(
       <App />
     </Provider>
   </React.StrictMode>
+  
 );
